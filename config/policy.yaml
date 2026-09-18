@@ -1,0 +1,8 @@
+min_compliance: 0.70
+noise_threshold: 0.03
+mirror_threshold: 0.10
+min_signal_confidence: 0.80
+latency_budget_ms: 500
+price_war_confirmation_threshold: 0.80
+max_consecutive_price_war_signals: 2
+max_mirror_actions_per_competitor: 2

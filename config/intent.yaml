@@ -1,0 +1,28 @@
+goal: protect_margin_and_brand_equity
+rationale: >
+  We compete on service quality and bundle value, not headline price.
+  Autonomous action is permitted only inside declared constraints.
+constraints:
+  min_margin: 0.22
+  max_discount: 0.15
+  no_price_war: true
+ethical_constraints:
+  - transparency
+  - consent
+  - reciprocity
+priority: high
+version: "1"
+constraint_profiles:
+  mid-market-retail:
+    min_margin: 0.22
+    max_discount: 0.15
+seasonal_adjustments:
+  peak:
+    min_margin: 0.25
+    max_discount: 0.10
+recalibration:
+  enabled: true
+  window_size: 20
+  breach_rate_threshold: 0.25
+  adjustment_step: 0.01
+updated_at: "2026-09-17T00:00:00+00:00"

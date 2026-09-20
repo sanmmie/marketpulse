@@ -1,0 +1,13 @@
+.kilo
+.pytest_cache
+.ruff_cache
+.vercel
+artifacts
+delta-os-core
+documentation - not for public
+tests
+__pycache__
+*.py[cod]
+.env*
+!.env.example
+Sample Output.txt

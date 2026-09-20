@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{.kilo/**,.pytest_cache/**,.ruff_cache/**,artifacts/**,delta-os-core/**,documentation - not for public/**,tests/**,Sample Output.txt}"
+    }
+  },
+  "build": {
+    "env": {
+      "PYTHONUNBUFFERED": "1"
+    }
+  }
+}
